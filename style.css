@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+.nav{
+    width: 100%;
+}
+.nav .barra{
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+.nav .tittle{
+    display: flex;
+    margin: 0;
+    width: 440px;
+    font-size: 50px;
+    height: 103px;
+    text-align: center;
+
+}
+.nav 
+.nav .sub-tittle{
+    margin-left: 10px;
+}
+
+
+img{
+    width: 150px;
+    height: auto;
+}
+
+.filtro{
+    display: flex;
+    margin: 10px 5px;
+    justify-content: end;
+}
+
+.filtro .filtroModelo{
+    width: 150px;
+}
+.filtro .text-filtro{
+    margin-right: 10px;
+}
+
+.contain{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.contain .productos{
+    margin: 10px 30px;
+    background-color: #0058ffeb;
+    text-align: center;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+
+.contain .productos:hover{
+    background-color: #1667fcc9;
+}

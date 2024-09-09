@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Stock</title>
+</head>
+<body id="body">
+    <nav class="nav">
+        <div class="barra">
+            <h1 class="tittle">JOBE Accesorios</h1>
+            <img src="./imagenes/logo.png" alt="logo">
+        </div>
+        <h2 class="sub-tittle" style="background-color: #0058ffeb;">Página de Stock</h2>
+        <div class="filtro">
+            <label for="filtroModelo" class="text-filtro">Filtrar por modelo:</label>
+            <select id="filtroModelo" class="filtroModelo">
+                <option value="">Todos</option>
+                <option value="joysticks">Joysticks</option>
+                <option value="camaras">Camaras</option>
+                <option value="cargador">Cargadores</option>
+                <option value="barba">Accesorios Barba</option>
+                <option value="audio">Audio</option>
+                <option value="portasube">Porta Sube</option>
+                <option value="luz">Luz</option>
+            </select>
+        </div>
+    </nav>
+    <section class="main">
+        <div id="container" class="contain"></div>
+    </section>
+
+
+    <footer style="text-align: center; margin: 10px auto; background-color: #0058ffeb;">
+        Todos los Derechos Reservados. 2024
+    </footer>
+    <script src="./main.js"></script>
+</body>
+</html>
